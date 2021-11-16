@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Tesseract" Version="4.1.1" />
+    <PackageReference Include="Tesseract.Drawing" Version="4.1.1" />
+    <PackageReference Include="Tesseract.Net.SDK" Version="1.20.342" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\giovanna.marques\.nuget\packages\tesseract.net.sdk\1.20.342\build\..\content\tessdata\configs\config.cfg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\giovanna.marques\.nuget\packages\tesseract.net.sdk\1.20.342\build\..\content\tessdata\eng.cube.bigrams" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\giovanna.marques\.nuget\packages\tesseract.net.sdk\1.20.342\build\..\content\tessdata\eng.cube.fold" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\giovanna.marques\.nuget\packages\tesseract.net.sdk\1.20.342\build\..\content\tessdata\eng.cube.lm" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\giovanna.marques\.nuget\packages\tesseract.net.sdk\1.20.342\build\..\content\tessdata\eng.cube.nn" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\giovanna.marques\.nuget\packages\tesseract.net.sdk\1.20.342\build\..\content\tessdata\eng.cube.params" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\giovanna.marques\.nuget\packages\tesseract.net.sdk\1.20.342\build\..\content\tessdata\eng.cube.size" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\giovanna.marques\.nuget\packages\tesseract.net.sdk\1.20.342\build\..\content\tessdata\eng.cube.word-freq" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\giovanna.marques\.nuget\packages\tesseract.net.sdk\1.20.342\build\..\content\tessdata\eng.tesseract_cube.nn" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\giovanna.marques\.nuget\packages\tesseract.net.sdk\1.20.342\build\..\content\tessdata\eng.traineddata" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\giovanna.marques\.nuget\packages\tesseract.net.sdk\1.20.342\build\..\content\tessdata\pdf.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\giovanna.marques\.nuget\packages\tesseract.net.sdk\1.20.342\build\..\content\tessdata\pdf.ttx" />
+  </ItemGroup>
+
+</Project>
